@@ -1,0 +1,9 @@
+# Exclude raw 1-minute CSV files from Git tracking
+DAT_MT_EURUSD_M1_*.csv
+EURUSD_M1_*.csv
+
+# Exclude Python runtime caches & editor settings
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
